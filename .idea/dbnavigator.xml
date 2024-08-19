@@ -20,6 +20,9 @@
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="75430d20-ef0e-4306-b0e7-c8e800d2d5de" dataset="development.friends" active-filter-id="" />
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
