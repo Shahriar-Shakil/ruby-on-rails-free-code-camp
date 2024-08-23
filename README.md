@@ -1,24 +1,36 @@
-# README
+# Simple CRUD Application with Rails 7 and Devise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+This is a basic CRUD (Create, Read, Update, Delete) application built with Ruby on Rails 7, featuring user
+authentication managed by Devise. The application allows users to register, log in, and manage a list of friends. Users
+can create, view, edit, and delete friends, but can only modify friends that they themselves have created.
 
-* Ruby version
+## Live Demo
 
-* System dependencies
+Watch a live demo of the application
+here: [Demo Video](https://www.loom.com/share/91d4de867da24b0b8f854cc4a9e10dff?sid=2e24e3e4-b92a-4ca5-853a-d68f88563874)
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby 3.2+
+- Rails 7+
+- Node.js (for managing JavaScript dependencies)
+- Yarn (optional, for managing JavaScript dependencies)
+- SQLite (or any other database supported by Rails)
 
-* Database initialization
+### Steps to Set Up the Application
 
-* How to run the test suite
+   ```bash
+   git clone ....
 
-* Services (job queues, cache servers, search engines, etc.)
+   bundle install
 
-* Deployment instructions
+rails db:create
+rails db:migrate
+rails db:seed
 
-* ...
+rails server
+```
+
+Open your browser and visit http://localhost:3000 to view the application.
